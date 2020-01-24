@@ -81,5 +81,11 @@ jsproxy_config({
    */
   inject_html: '<!-- custom html -->',
   url_handler: {
+    'https://www.baidu.com/img/baidu_resultlogo@2.png': {
+      replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
+    },
+    'http://haha.com/': {
+      content: 'Hello World'
+    },
   }
 })
