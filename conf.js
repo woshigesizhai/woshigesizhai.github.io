@@ -79,5 +79,5 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '<!-- custom html -->',
+  inject_html: '<!-- custom html -->'
 })
